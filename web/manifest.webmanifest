@@ -1,0 +1,9 @@
+{
+  "name": "Light Draw",
+  "short_name": "LightDraw",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#232532",
+  "theme_color": "#232532",
+  "orientation": "landscape"
+}

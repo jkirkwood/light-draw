@@ -1,0 +1,61 @@
+.App {
+  width: 100%;
+
+  .Canvas {
+    position: absolute;
+    top: 0;
+    left: 50px;
+    right: 0;
+    bottom: 0;
+  }
+
+  .MenuBar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 50px;
+    background: #232532;
+  }
+
+  .menu {
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 50px;
+    height: 100%;
+    z-index: 10;
+    background: darken(#232532, 5%);
+    padding: 20px;
+    width: 300px;
+    overflow: auto;
+    box-sizing: border-box;
+
+    .close {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      font-size: 24px;
+      cursor: pointer;
+      transition: color 0.3s;
+      &:hover {
+        color: #aaa;
+      }
+    }
+
+    button {
+      margin-bottom: 10px;
+      width: 100%;
+      padding: 10px 20px;
+      background: #333;
+      border: none;
+      cursor: pointer;
+      color: white;
+    }
+
+    input[type="range"] {
+      width: 100%;
+      margin-top: 10px;
+    }
+  }
+}

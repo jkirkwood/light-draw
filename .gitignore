@@ -1,0 +1,11 @@
+*.sublime-project
+*.sublime-workspace
+.env
+cmd/lightdraw/lightdraw
+cmd/lightdraw/packrd
+cmd/lightdraw/main-packr.go
+web/dist
+web/.cache
+node_modules
+.DS_Store
+sftp-config.json

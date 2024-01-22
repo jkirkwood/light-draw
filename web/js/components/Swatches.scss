@@ -1,0 +1,13 @@
+.Swatches {
+  $swatchSize: 25px;
+  .Swatch {
+    display: inline-block;
+    box-sizing: border-box;
+    width: $swatchSize;
+    height: $swatchSize;
+    margin-right: 5px;
+    &.selected {
+      border: 2px solid #555;
+    }
+  }
+}

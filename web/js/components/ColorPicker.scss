@@ -1,0 +1,20 @@
+.ColorPicker {
+  .picker {
+    display: inline-block;
+    position: relative;
+    canvas {
+      border: 1px solid #555;
+    }
+  }
+  .brightness {
+    margin-left: 10px;
+  }
+
+  .cursor {
+    width: 10px;
+    height: 10px;
+    border: 2px solid #555;
+    position: absolute;
+    pointer-events: none;
+  }
+}

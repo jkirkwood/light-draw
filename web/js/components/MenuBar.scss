@@ -1,0 +1,33 @@
+.MenuBar {
+  .item {
+    position: relative;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    &:hover {
+      background: darken(#232532, 5%);
+    }
+    &.active {
+      color: #56bde0;
+    }
+  }
+
+  .divider {
+    border-top: 1px solid white;
+    width: 80%;
+    margin: 10px auto;
+  }
+
+  .color-preview {
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    border-radius: 100%;
+    pointer-events: none;
+  }
+}

@@ -1,0 +1,17 @@
+.SaveMenu {
+	width: 200px;
+	padding-top: 50px;
+	ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		li {
+			margin-bottom: 10px;
+			img {
+				cursor: pointer;
+				image-rendering: crisp-edges;
+				width: 100%;
+			}
+		}
+	}
+}
